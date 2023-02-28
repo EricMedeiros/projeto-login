@@ -1,4 +1,6 @@
 @charset "UTC-8";
+@media screen and (max-width:380px){
+    
 
 *{
     margin: 0px;
@@ -85,4 +87,185 @@ a{
     text-decoration: none;
     
 
+}
+}
+@media screen and (max-width:1200px){
+    
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    background-image: url(../imagens/pexels-david-bartus-2876593.jpg);
+    background-size: cover;
+    
+}
+#centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 30vh;
+}
+#img-login img {
+    
+    float: left;
+    height: 100%;
+    width: 30%;
+    
+
+}
+#login{
+    float: right;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#login article{
+    text-align: left;
+    font-size: 0.8em;
+    text-indent: 20px;
+}
+#iemail, #isenha{
+    background-color: rgb(0, 9, 59);
+    margin: 4px;
+    border-radius: 10px;
+    height: 7vh;
+    width: 100%;
+}
+#login input[type=email], input[type=password]{
+    margin: 2px;
+    width: 83%;
+    height: 80%;
+    border-radius: 10px;
+
+}
+.material-symbols-outlined{
+    color: white;
+    vertical-align: middle;
+    font-size: 1.3em;
+}
+#entrar{
+    text-align: center;
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: 7vh;
+    font-size: 1.1em;
+    background-color: rgb(0, 9, 59);
+    color: white;
+    margin-bottom: 4px;
+
+}
+a{
+    text-align: center;
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: 7vh;
+    font-size: 1.1em;
+    background-color: rgb(0, 9, 59);
+    color: white;
+    text-decoration: none;
+    
+
+}
+}
+@media screen and (max-width:1200px){
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    background-image: url(../imagens/pexels-david-bartus-2876593.jpg);
+    
+    background-size: cover;
+    
+}
+#centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    width: 70vw;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 80vh;
+}
+#img-login {
+    background-image: url(../imagens/pexels-thach-tran-756856.jpg);
+    background-size: cover;
+    height: 34vh;
+    margin: -20px -20px 10px -20px ;
+    border-radius: 10px 10px 0px 0px;
+
+}
+#login{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#login article{
+    text-align: left;
+    font-size: 0.8em;
+    text-indent: 20px;
+}
+#iemail, #isenha{
+    background-color: rgb(0, 9, 59);
+    margin: 4px;
+    border-radius: 10px;
+    height: 7vh;
+    width: 100%;
+}
+#login input[type=email], input[type=password]{
+    margin: 2px;
+    width: 83%;
+    height: 80%;
+    border-radius: 10px;
+
+}
+.material-symbols-outlined{
+    color: white;
+    vertical-align: middle;
+    font-size: 1.3em;
+}
+#entrar{
+    text-align: center;
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: 7vh;
+    font-size: 1.1em;
+    background-color: rgb(0, 9, 59);
+    color: white;
+    margin-bottom: 4px;
+
+}
+a{
+    text-align: center;
+    display: block;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    height: 7vh;
+    font-size: 1.1em;
+    background-color: rgb(0, 9, 59);
+    color: white;
+    text-decoration: none;
+    
+
+}
 }
